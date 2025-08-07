@@ -50,9 +50,16 @@ export default function Book() {
                 <div className="row">
                     <div className="col-xl-12 img">
                         <div className="row">
-                            <div className="col-xl-4 col-sm-3">
+                            <div className="col-xl-4 col-sm-4 col-4">
                                 <img src={main} className='mt-3' alt="" height={"60px"} />
                             </div>
+                            <div className="col-xl-4 col-sm-4 col-4"></div>
+                            <div className="col-xl-4 col-sm-4 col-4 mt-2">
+                                <button className='btn border-0 fixed float-end text-light' onClick={close}><span className='fs-2'>back<i class="fa-solid fa-xmark ms-2"></i></span></button>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-sm-4"></div>
                             <div className="col-xl-4 col-sm-6">
                                 <div className="row my-5"></div>
                                 <div className="row my-5"></div>
@@ -60,9 +67,6 @@ export default function Book() {
                                 <div className="row my-5"></div>
                                 <div className="row my-5"></div>
                                 <h1 className='text-dark text-center fw-bold'>Book Your Room</h1>
-                            </div>
-                            <div className="col-xl-4 col-sm-3">
-                                <button className='btn border-0 fixed float-end text-light mt-3' onClick={close}><span className='fs-2'>back<i class="fa-solid fa-xmark ms-2"></i></span></button>
                             </div>
                         </div>
                     </div>
