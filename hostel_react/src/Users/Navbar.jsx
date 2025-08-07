@@ -37,10 +37,10 @@ export default function Navbar() {
               <li class="nav-item">
                 <Link to="/contact" class="nav-link fs-5 ms-3" href="#">Contact</Link>
               </li>
-              <li class="nav-item float">
+              <li class="nav-item">
                 <Link to="/login" class="btn btn-primary mt-1 fs-5" href="#">Login</Link>
               </li>
-              <li class="nav-item float1">
+              <li class="nav-item">
                 <Link to="/book" class="btn btn-primary mt-1" href="#">Book a Room</Link>
               </li>
             </ul>
