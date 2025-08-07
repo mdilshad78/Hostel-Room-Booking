@@ -33,7 +33,7 @@ export default function Home() {
       <div className="container-fluid">
         <div className="row mt-5 mt-5">
           <div className="col-xl-1"></div>
-          <div className="col-xl-5">
+          <div className="col-xl-5 ">
             <div className="row my-5"></div>
             <div className="row my-5"></div>
             <div className="row back" data-aos="fade-up">
@@ -56,7 +56,7 @@ export default function Home() {
       </div>
       {/* top  */}
 
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-xl-10 col-sm-8 mt-5">
             <h1 data-aos="">Hostel rooms</h1>
@@ -106,7 +106,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
       {/* everything */}
@@ -494,8 +494,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="col-xl-6 mt-4 map">
-            <iframe className='map' width="640" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
+          <div className="col-xl-6 mt-4">
+            <iframe className='' width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
               src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=ratanada%20Jodhpur+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe> <a href='https://www.easybooking.eu/'></a>
             <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=57252002effbb8c8967048e9676fa9a0693ee925'></script>

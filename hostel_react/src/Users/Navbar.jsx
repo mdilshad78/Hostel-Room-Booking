@@ -38,10 +38,10 @@ export default function Navbar() {
                 <Link to="/contact" class="nav-link fs-5 ms-3" href="#">Contact</Link>
               </li>
               <li class="nav-item float">
-                <Link to="/login" class="btn btn-primary mt-1 fs-5 ms-5" href="#">Login</Link>
+                <Link to="/login" class="btn btn-primary mt-1 fs-5" href="#">Login</Link>
               </li>
               <li class="nav-item float1">
-                <Link to="/book" class="btn btn-primary mt-1 fs-5 ms-5" href="#">Book a Room</Link>
+                <Link to="/book" class="btn btn-primary mt-1" href="#">Book a Room</Link>
               </li>
             </ul>
           </div>
