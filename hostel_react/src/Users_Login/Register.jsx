@@ -12,8 +12,10 @@ export default function Register() {
     const [phone, setPhone] = useState();
     const [password, setPassword] = useState();
 
+    axios.defaults.withCredentials = true;
+
     const submit = () => {
-        axios.post("hostel-room-booking-mu.vercel.app/reg", { name, email, phone, password })
+        axios.post("http://hostel-room-booking-mu.vercel.app/reg", { name, email, phone, password })
             .then((result) => {
                 console.log(result)
                 alert("Register Successfully")
