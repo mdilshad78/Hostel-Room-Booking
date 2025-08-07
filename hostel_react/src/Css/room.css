@@ -1,0 +1,127 @@
+.vsize {
+    font-size: 45px;
+}
+
+/* navbar */
+
+.list-item {
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    transition: 9s;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.page:hover .list-item {
+    display: block;
+}
+
+@media screen and (max-width:2000px) {
+    .float {
+        margin-left: 800px;
+        position: absolute;
+    }
+
+    .float1 {
+        margin-left: 900px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:1800px) {
+    .float {
+        margin-left: 700px;
+        /* margin-top: 200px; */
+        position: absolute;
+    }
+
+    .float1 {
+        margin-left: 800px;
+        /* margin-top: 60px; */
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .float {
+        margin-left: 650px;
+        position: absolute;
+    }
+
+    .float1 {
+        margin-left: 750px;
+        position: absolute;
+    }
+
+    .map {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .float {
+        margin-left: 680px;
+        position: absolute;
+    }
+
+    .float1 {
+        margin-left: 650px;
+        position: absolute;
+    }
+
+    .map {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .float {
+        margin-left: 480px;
+        position: absolute;
+    }
+
+    .float1 {
+        margin-left: 560px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .float {
+        position: absolute;
+    }
+
+    .float1 {
+        margin-top: 60px;
+    }
+
+    .mars {
+        margin-left: 30px;
+    }
+
+    .map {
+        width: 710px;
+    }
+}
+
+/* navbar */
+
+/* contact */
+
+.left2 {
+    border-left: 2px solid rgb(53, 113, 170);
+}
+
+.white {
+    background-color: white;
+    box-shadow: 0px 0px 10px .5px rgb(196, 195, 195);
+}
+
+
+
+/* contact */

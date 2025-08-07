@@ -1,0 +1,233 @@
+.back1 {
+    /* background-color: red; */
+    height: 250px;
+    overflow: hidden;
+}
+
+.box-img {
+    background-image: url(../image/news_image/01.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.box-img1 {
+    background-image: url(../image/news_image/02.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.box-img2 {
+    background-image: url(../image/news_image/03.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.box-img3 {
+    background-image: url(../image/news_image/04.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.box-img4 {
+    background-image: url(../image/news_image/05.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.box-img5 {
+    background-image: url(../image/news_image/06.webp);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .7s;
+}
+
+.back1:hover .box-img {
+    transform: scale(1.1);
+}
+
+.back1:hover .box-img1 {
+    transform: scale(1.1);
+}
+
+.back1:hover .box-img2 {
+    transform: scale(1.1);
+}
+
+.back1:hover .box-img3 {
+    transform: scale(1.1);
+}
+
+.back1:hover .box-img4 {
+    transform: scale(1.1);
+}
+
+.back1:hover .box-img5 {
+    transform: scale(1.1);
+}
+
+.bg {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.box {
+    height: 80px;
+    overflow: hidden;
+}
+
+.box1 {
+    height: 90px;
+    overflow: hidden;
+}
+
+
+.box-image {
+    background-image: url(../image/news_image/post01.webp);
+    height: 80px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-image1 {
+    background-image: url(../image/news_image/post02.webp);
+    height: 80px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-image2 {
+    background-image: url(../image/news_image/post03.webp);
+    height: 80px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box:hover .box-image {
+    transform: scale(1.1);
+}
+
+.box:hover .box-image1 {
+    transform: scale(1.1);
+}
+
+.box:hover .box-image2 {
+    transform: scale(1.1);
+}
+
+.box-images {
+    background-image: url(../image/news_image/insta1.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-images1 {
+    background-image: url(../image/news_image/insta2.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-images2 {
+    background-image: url(../image/news_image/insta3.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-images3 {
+    background-image: url(../image/news_image/insta4.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-images4 {
+    background-image: url(../image/news_image/insta5.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box-images5 {
+    background-image: url(../image/news_image/insta6.webp);
+    height: 90px;
+    background-size: 100% 100%;
+    transition: .3s;
+}
+
+.box1:hover .box-images {
+    transform: scale(1.1);
+}
+
+.box1:hover .box-images1 {
+    transform: scale(1.1);
+}
+
+.box1:hover .box-images2 {
+    transform: scale(1.1);
+}
+
+.box1:hover .box-images3 {
+    transform: scale(1.1);
+}
+
+.box1:hover .box-images4 {
+    transform: scale(1.1);
+}
+
+.box1:hover .box-images5 {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .box{
+        height: 120px;
+    }
+    .box1 {
+        height: 150px;
+    }
+
+    .box-image{
+        height: 120px;
+    }
+
+    .box-image1{
+        height: 120px;
+    }
+
+    .box-image2{
+        height: 120px;
+    }
+
+    .box-images {
+        height: 150px;
+    }
+
+    .box-images1 {
+        height: 150px;
+    }
+
+    .box-images2 {
+        height: 150px;
+    }
+    .box-images3 {
+        height: 150px;
+    }
+    .box-images4 {
+        height: 150px;
+    }
+    .box-images5 {
+        height: 150px;
+    }
+}

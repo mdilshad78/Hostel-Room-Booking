@@ -1,0 +1,194 @@
+.boxes1{
+    /* background-color: red; */
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img1{
+    background-image: url(../image/gallery_image/full01.webp);
+    height: 600px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes2{
+    /* background-color: red; */
+    height: 315px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img2{
+    background-image: url(../image/gallery_image/full04.webp);
+    height: 315px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes3{
+    /* background-color: red; */
+    height: 580px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img3{
+    background-image: url(../image/gallery_image/full07.webp);
+    height: 580px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes4{
+    /* background-color: red; */
+    height: 320px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img4{
+    background-image: url(../image/gallery_image/full10.webp);
+    height: 320px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes5{
+    /* background-color: red; */
+    height: 270px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img5{
+    background-image: url(../image/gallery_image/full02.webp);
+    height: 270px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes6{
+    /* background-color: red; */
+    height: 645px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img6{
+    background-image: url(../image/gallery_image/full05.webp);
+    height: 645px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes7{
+    /* background-color: red; */
+    height: 270px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img7{
+    background-image: url(../image/gallery_image/full08.webp);
+    height: 270px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes8{
+    /* background-color: red; */
+    height: 630px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img8{
+    background-image: url(../image/gallery_image/full11.webp);
+    height: 630px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes9{
+    /* background-color: red; */
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img9{
+    background-image: url(../image/gallery_image/full03.webp);
+    height: 600px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes10{
+    /* background-color: red; */
+    height: 312px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img10{
+    background-image: url(../image/gallery_image/full06.webp);
+    height: 312px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes11{
+    /* background-color: red; */
+    height: 580px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img11{
+    background-image: url(../image/gallery_image/full09.webp);
+    height: 580px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+.boxes12{
+    /* background-color: red; */
+    height: 323px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.boxes-img12{
+    background-image: url(../image/gallery_image/full12.webp);
+    height: 323px;
+    background-size: 100% 100%;
+    transition: 2s;
+}
+
+
+
+.boxes1:hover .boxes-img1{
+    transform: scale(1.1);
+}
+.boxes2:hover .boxes-img2{
+    transform: scale(1.1);
+}
+.boxes3:hover .boxes-img3{
+    transform: scale(1.1);
+}
+.boxes4:hover .boxes-img4{
+    transform: scale(1.1);
+}
+.boxes5:hover .boxes-img5{
+    transform: scale(1.1);
+}
+.boxes6:hover .boxes-img6{
+    transform: scale(1.1);
+}
+.boxes7:hover .boxes-img7{
+    transform: scale(1.1);
+}
+.boxes8:hover .boxes-img8{
+    transform: scale(1.1);
+}
+.boxes9:hover .boxes-img9{
+    transform: scale(1.1);
+}
+.boxes10:hover .boxes-img10{
+    transform: scale(1.1);
+}
+.boxes11:hover .boxes-img11{
+    transform: scale(1.1);
+}
+.boxes12:hover .boxes-img12{
+    transform: scale(1.1);
+}

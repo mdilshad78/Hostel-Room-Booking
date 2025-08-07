@@ -1,0 +1,150 @@
+.font {
+    font-size: 40px;
+    font-family:sans-serif;
+}
+
+.img {
+    background-image: url(../image/Home_image/First.webp);
+    background-size: 100% 100%;
+    height: 750px;
+}
+
+.back {
+    background-color: rgb(211, 211, 211);
+}
+
+.bor {
+    border-left: 2px solid black;
+    height: 70px;
+}
+
+.mar {
+    margin-left: 20px;
+}
+
+.bor1 {
+    border-left: 2px solid white;
+    height: 170px;
+    /* background-color: white; */
+}
+
+.img1 {
+    background-image: url(../image/Home_image/video.webp);
+    background-size: 100% 100%;
+    height: 650px;
+}
+
+.icon {
+    font-size: 60px;
+}
+
+.pad{
+    padding: 43.4px;
+}
+
+@media screen and (min-width: 1000px) {
+    .myfont {
+       font-size: 5px;
+       /* background-color: red; */
+    }
+}
+.curd{
+    border-radius: 10px;
+    /* height: 500px; */
+}
+
+.margin{
+    margin-top: 35px;
+}
+
+.cardimg1{
+    background-image: url(../image/Home_image/news1.webp);
+    height: 345px;
+    background-size: 100% 100%;
+}
+.cardimg2{
+    background-image: url(../image/Home_image/news2.webp);
+    height: 345px;
+    background-size: 100% 100%;
+}
+.cardimg3{
+    background-image: url(../image/Home_image/news3.webp);
+    height: 345px;
+    background-size: 100% 100%;
+}
+
+.name1{
+    background-color: white;
+    width: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name2{
+    background-color: white;
+    width: 36%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.name{
+    background-color: white;
+    width: 42%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.color{
+    background-color: rgb(132, 200, 224);
+}
+
+.back-1{
+    /* background-color: red; */
+    height: 590px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.back-2{
+    /* background-color: red; */
+    height: 275px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.back-img1{
+    background-image: url(../image/Home_image/firstimg.jpg);
+    height: 590px;
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.back-img2{
+    background-image: url(../image/Home_image/secondimg.jpg);
+    height: 275px;
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.back-img3{
+    background-image: url(../image/Home_image/thirdimg.jpg);
+    height: 275px;
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.back-img4{
+    background-image: url(../image/Home_image/forthimg.jpg);
+    height: 590px;
+    background-size: 100% 100%;
+    transition: 1s;
+}
+
+.back-1:hover .back-img1{
+    transform: scale(1.1);
+}
+.back-1:hover .back-img4{
+    transform: scale(1.1);
+}
+.back-2:hover .back-img2{
+    transform: scale(1.1);
+}
+.back-2:hover .back-img3{
+    transform: scale(1.1);
+}
