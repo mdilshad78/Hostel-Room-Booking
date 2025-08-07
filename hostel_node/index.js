@@ -81,6 +81,10 @@ const bookingdata = new mongoose.Schema({
 const collection = new mongoose.model("regdata", userdata);
 const collection1 = new mongoose.model("bookingdata", bookingdata);
 
+app.get("/",(req,res)=>{
+    res.json("Hello")
+})
+
 app.post("/reg", (req, res) => {
     // console.log(req.body);
     const user = req.body;
