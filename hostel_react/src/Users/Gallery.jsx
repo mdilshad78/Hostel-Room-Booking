@@ -23,8 +23,8 @@ export default function Gallery() {
                 <div className="container">
                     <div className="row">
                         <div className="row">
-                            <h4 className="mx-5 mt-5"><Link to="/" className="text-primary text-decoration-none">Home</Link> / Photo Gallery of Our Hostel</h4>
-                            <h1 className="display-4 mt-2 fw-bold  mx-5 mb-5">Gallery</h1>
+                            <h4 className=" mt-5"><Link to="/" className="text-primary text-decoration-none">Home</Link> / Photo Gallery of Our Hostel</h4>
+                            <h1 className="mt-2 fw-bold  mb-5">Gallery</h1>
                         </div>
                     </div>
                 </div>
