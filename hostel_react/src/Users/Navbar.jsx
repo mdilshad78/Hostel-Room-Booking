@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import main from '../image/Home_image/main.png'
+import '../Css/home.css'
 
 export default function Navbar() {
   return (
@@ -37,11 +38,11 @@ export default function Navbar() {
               <li class="nav-item">
                 <Link to="/contact" class="nav-link fs-5 ms-3" href="#">Contact</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/login" class="btn btn-primary mt-1 fs-5" href="#">Login</Link>
+              <li class="nav-item button">
+                <Link to="/login" class="btn text-primary mt-1 fs-5" href="#">Login</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/book" class="btn btn-primary mt-1" href="#">Book a Room</Link>
+              <li class="nav-item book">
+                <Link to="/book" class="btn text-primary mt-1 fs-5" href="#">Book a Room</Link>
               </li>
             </ul>
           </div>

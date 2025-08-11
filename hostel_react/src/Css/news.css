@@ -192,42 +192,43 @@
 
 @media screen and (max-width: 1200px) {
     .box{
-        height: 120px;
+        height: 220px;
     }
     .box1 {
-        height: 150px;
+        height: 250px;
+        margin-top: 10px;
     }
 
     .box-image{
-        height: 120px;
+        height: 220px;
     }
 
     .box-image1{
-        height: 120px;
+        height: 220px;
     }
 
     .box-image2{
-        height: 120px;
+        height: 220px;
     }
 
     .box-images {
-        height: 150px;
+        height: 250px;
     }
 
     .box-images1 {
-        height: 150px;
+        height: 250px;
     }
 
     .box-images2 {
-        height: 150px;
+        height: 250px;
     }
     .box-images3 {
-        height: 150px;
+        height: 250px;
     }
     .box-images4 {
-        height: 150px;
+        height: 250px;
     }
     .box-images5 {
-        height: 150px;
+        height: 250px;
     }
 }

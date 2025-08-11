@@ -95,11 +95,11 @@ export default function About() {
       {/* hotel room */}
       <div className="container mt-5">
         <div className="row">
-          <div className="col-lg-10 col-sm-8 mt-5" >
+          <div className="col-lg-10 col-sm-8 col-8 mt-5" >
             <h1>Hostel rooms</h1>
           </div>
-          <div className="col-lg-2 col-sm-4 mt-5">
-            <Link to='/room' className='btn btn-primary float-end mt-3'>View all rooms</Link>
+          <div className="col-lg-2 col-sm-4 col-4 mt-5">
+            <Link to='/room' className='btn btn-primary float-end mt-2 view'>View all rooms</Link>
           </div>
         </div>
         <div className="row mt-5">
@@ -193,35 +193,35 @@ export default function About() {
             <div className="col-xl-6 mt-5 mb-5">
               <h1 className='font'>Rule settlement, eviction and stay</h1>
               <div className="row" data-aos="fade-up">
-                <div className="col-sm-1">
+                <div className="col-sm-1 col-1">
                   <i class="fa-solid fa-check fs-4 mt-2 float-end text-primary"></i>
                 </div>
-                <div className="col-sm-10">
+                <div className="col-sm-10 col-11">
                   <p className='fs-5'>Time of arrival is after 14-00. Time of departure is to 12-00</p>
                 </div>
               </div>
               <div className="row" data-aos="fade-up">
-                <div className="col-sm-1">
+                <div className="col-sm-1 col-1">
                   <i class="fa-solid fa-check fs-4 mt-2 float-end text-primary"></i>
                 </div>
-                <div className="col-sm-10">
+                <div className="col-sm-10 col-11">
                   <p className='fs-5'>Does a settlement take place only at complete payment</p>
                 </div>
               </div>
               <div className="row" data-aos="fade-up">
-                <div className="col-sm-1">
+                <div className="col-sm-1 col-1">
                   <i class="fa-solid fa-check fs-4 mt-2 float-end text-primary"></i>
                 </div>
-                <div className="col-sm-10">
+                <div className="col-sm-10 col-11">
                   <p className='fs-5'>Is there a settlement in hostel only after the presence of passport</p>
                 </div>
               </div>
               <div className="row" data-aos="fade-up">
-                <div className="col-sm-1">
+                <div className="col-sm-1 col-1">
                   <i class="fa-solid fa-check fs-4 mt-2 float-end text-primary"></i>
                 </div>
-                <div className="col-sm-10">
-                  <p className='fs-5'>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Quam elementum pulvinar etiam non quam lacus suspendisse. Eget gravida cum sociis natoque</p>
+                <div className="col-sm-10 col-11">
+                  <p className='fs-5 '>Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Quam elementum pulvinar etiam non quam lacus suspendisse. Eget gravida cum sociis natoque</p>
                 </div>
               </div>
             </div>
@@ -230,7 +230,7 @@ export default function About() {
               <h1>We are ready answer your question</h1>
 
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-12">
                   <input type="text" placeholder='Name' className='input mt-4' />
                 </div>
                 <div className="col-sm-6">
@@ -274,10 +274,10 @@ export default function About() {
               <div class="card-body">
                 <Link className='text-decoration-none' onClick={close}>
                   <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-sm-10 col-10">
                       <h4 class="card-title">How do you choose the right hostel?</h4>
                     </div>
-                    <div className="col-sm-2 text-center">
+                    <div className="col-sm-2 col-2 text-center">
                       <i class="fa-solid fa-chevron-up fs-4 mt-3"></i>
                     </div>
                   </div>
@@ -296,10 +296,10 @@ export default function About() {
               <div class="card-body">
                 <Link className='text-decoration-none'>
                   <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-sm-10 col-10">
                       <h4 class="card-title">How many people are in a hostel room?</h4>
                     </div>
-                    <div className="col-sm-2 text-center">
+                    <div className="col-sm-2 col-2 text-center">
                       <i class="fa-solid fa-chevron-up fs-4 mt-3"></i>
                     </div>
                   </div>
@@ -345,10 +345,10 @@ export default function About() {
               <div class="card-body">
                 <Link className='text-decoration-none'>
                   <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-sm-10 col-10">
                       <h4 class="card-title">Are there private rooms in Hostels?</h4>
                     </div>
-                    <div className="col-sm-2 text-center">
+                    <div className="col-sm-2 col-2 text-center">
                       <i class="fa-solid fa-chevron-up fs-4 mt-3"></i>
                     </div>
                   </div>
@@ -367,10 +367,10 @@ export default function About() {
               <div class="card-body">
                 <Link className='text-decoration-none'>
                   <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-sm-10 col-10">
                       <h4 class="card-title">How do I keep my things safe in a hostel?</h4>
                     </div>
-                    <div className="col-sm-2 text-center">
+                    <div className="col-sm-2 col-2 text-center">
                       <i class="fa-solid fa-chevron-up fs-4 mt-3"></i>
                     </div>
                   </div>
@@ -389,10 +389,10 @@ export default function About() {
               <div class="card-body">
                 <Link className='text-decoration-none'>
                   <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-sm-10 col-10">
                       <h4 class="card-title">How do you stay safe in a hostel?</h4>
                     </div>
-                    <div className="col-sm-2 text-center">
+                    <div className="col-sm-2 col-2 text-center">
                       <i class="fa-solid fa-chevron-up fs-4 mt-3"></i>
                     </div>
                   </div>

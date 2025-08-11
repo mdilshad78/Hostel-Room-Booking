@@ -84,35 +84,35 @@ export default function Book() {
 
             <div className="container mt-5 mb-5">
                 <div className="row">
-                    <div className="col-xl-6 col-sm-12 mt-5">
+                    <div className="col-xl-6 col-sm-12 ">
                         <div className="row">
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img1} alt="" className='img-fluid' />
+                                <img src={img1} alt="" className='img-fluid mt-3' />
                             </div>
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img} alt="" className='img-fluid' />
+                                <img src={img} alt="" className='img-fluid mt-3' />
                             </div>
                         </div>
 
-                        <div className="row mt-4">
+                        <div className="row mt-2">
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img3} alt="" className='img-fluid' />
+                                <img src={img3} alt="" className='img-fluid mt-2' />
                             </div>
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img2} alt="" className='img-fluid' />
+                                <img src={img2} alt="" className='img-fluid mt-2' />
                             </div>
                         </div>
-                        <div className="row mt-4">
+                        <div className="row mt-2">
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img4} alt="" className='img-fluid' />
+                                <img src={img4} alt="" className='img-fluid mt-2' />
                             </div>
                             <div className="col-sm-6" data-aos="zoom-in">
-                                <img src={img5} alt="" className='img-fluid' />
+                                <img src={img5} alt="" className='img-fluid mt-2' />
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-xl-6 col-sm-12 med mt-5" data-aos="fade-up">
+                    <div className="col-xl-6 col-sm-12 med mt-3" data-aos="fade-up">
                         <div className="row">
                             <div className="col-sm-12">
                                 <form action="">
@@ -163,7 +163,7 @@ export default function Book() {
                                     </div>
 
                                     <div className='form-floating'>
-                                        <input type="text" name="child" placeholder='Select Room' className='mt-4 form-control name' onChange={(e) => setReq(e.target.value)} value={request} />
+                                        <input type="text" name="child" placeholder='Select Room' className='mt-4 form-control' onChange={(e) => setReq(e.target.value)} value={request} />
                                         <label htmlFor="">Special Request</label>
                                     </div>
 

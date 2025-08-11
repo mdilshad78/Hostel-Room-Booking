@@ -61,7 +61,7 @@ export default function Contact() {
           <div className="col-xl-1"></div>
 
           <div className="col-xl-6 mt-5 ">
-            <iframe className='map' width="640" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
+            <iframe className='' width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas"
               src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=ratanada%20Jodhpur+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe> <a href='https://www.easybooking.eu/'></a>
             <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=57252002effbb8c8967048e9676fa9a0693ee925'></script>
@@ -74,7 +74,7 @@ export default function Contact() {
           <div className="col-xl-6 mt-5">
             <h1 className="fs-1 fw-bold mt-5">Our ratings do not contradict</h1>
             <div className="row mt-5">
-              <div className="col-sm-6">
+              <div className="col-sm-6 col-6">
                 <p className="fs-2 fw-bold">8.3 /10</p>
                 <p className="">1398 comments</p>
                 <img src={img1} height={"25px"} alt="" />
@@ -82,7 +82,7 @@ export default function Contact() {
                 <p className="">460 notes</p>
                 <img src={img4} height={"45px"} alt="" />
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 col-6">
                 <p className="fs-2 fw-bold">4.9 /5</p>
                 <p className="">2389 notes</p>
                 <img src={img3} height={"28px"} alt="" />
@@ -104,14 +104,14 @@ export default function Contact() {
               <div className="col-sm-6">
                 <input
                   type="text"
-                  className="form-control p-3"
+                  className="form-control p-3 mt-3"
                   placeholder="Name"
                 />
               </div>
               <div className="col-sm-6">
                 <input
                   type="text"
-                  className="form-control p-3"
+                  className="form-control p-3 mt-3"
                   placeholder="Email"
                 />
               </div>

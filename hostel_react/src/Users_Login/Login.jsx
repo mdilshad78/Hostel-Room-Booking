@@ -90,10 +90,10 @@ export default function Login() {
                     </div>
                     <div className='mt-4'>
                       <div className="row">
-                        <div className="col-sm-1 text-center">
+                        <div className="col-sm-1 col-1 text-center">
                           <input type="checkbox" className='mt-2' />
                         </div>
-                        <div className="col-sm-11">
+                        <div className="col-sm-11 col-11">
                           <p className='fs-5'>By continuing you agree to our Terms of Use and Privacy Policy</p>
                         </div>
                       </div>

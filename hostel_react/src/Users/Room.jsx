@@ -45,22 +45,22 @@ export default function Room() {
                 </div>
                 <div className="col-sm-3">
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h1 className='mt-4 vsize float-end'>$29</h1>
                     </div>
-                    <div className="col-sm-6 mt-3">
+                    <div className="col-sm-6 col-6 mt-3">
                       <p className='mt-4 fs-5 float-start'> / 1 night</p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h4 className='mt-4 float-end'>$100</h4>
                     </div>
-                    <div className="col-sm-6 mt-4">
+                    <div className="col-sm-6 col-6 mt-4">
                       <p className='mt-1 float-start'> / 7 night</p>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row p-2">
                     <div className="col-sm-12 text-center mt-4">
                       <Link to="/book" className='text-decoration-none btn btn-primary'>Book Now</Link>
                     </div>
@@ -85,22 +85,22 @@ export default function Room() {
                 </div>
                 <div className="col-sm-3">
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h1 className='mt-4 vsize float-end'>$19</h1>
                     </div>
-                    <div className="col-sm-6 mt-3">
+                    <div className="col-sm-6 col-6 mt-3">
                       <p className='mt-4 fs-3 float-start'> / 1 night</p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h4 className='mt-4 float-end'>$80</h4>
                     </div>
-                    <div className="col-sm-6 mt-1">
+                    <div className="col-sm-6 col-6 mt-1">
                       <p className='mt-4 float-start'> / 7 night</p>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row p-2">
                     <div className="col-sm-12 text-center mt-4">
                       <Link to="/book" className='text-decoration-none btn btn-primary'>Book Now</Link>
                     </div>
@@ -125,22 +125,22 @@ export default function Room() {
                 </div>
                 <div className="col-sm-3">
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h1 className='mt-4 vsize float-end'>$99</h1>
                     </div>
-                    <div className="col-sm-6 mt-3">
+                    <div className="col-sm-6 col-6 mt-3">
                       <p className='mt-4 fs-3 float-start'> / 1 night</p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h4 className='mt-4 float-end'>$220</h4>
                     </div>
-                    <div className="col-sm-6 mt-1">
+                    <div className="col-sm-6 col-6 mt-1">
                       <p className='mt-4 float-start'> / 7 night</p>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row p-2">
                     <div className="col-sm-12 text-center mt-4">
                       <Link to="/book" className='text-decoration-none btn btn-primary'>Book Now</Link>
                     </div>
@@ -165,22 +165,22 @@ export default function Room() {
                 </div>
                 <div className="col-sm-3">
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h1 className='mt-4 vsize float-end'>$29</h1>
                     </div>
-                    <div className="col-sm-6 mt-3">
+                    <div className="col-sm-6 col-6 mt-3">
                       <p className='mt-4 fs-3 float-start'> / 1 night</p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h4 className='mt-4 float-end'>$115</h4>
                     </div>
-                    <div className="col-sm-6 mt-1">
+                    <div className="col-sm-6 col-6 mt-1">
                       <p className='mt-4 float-start'> / 7 night</p>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row p-2">
                     <div className="col-sm-12 text-center mt-4">
                       <Link to="/book" className='text-decoration-none btn btn-primary'>Book Now</Link>
                     </div>
@@ -205,22 +205,22 @@ export default function Room() {
                 </div>
                 <div className="col-sm-3">
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h1 className='mt-4 vsize float-end'>$29</h1>
                     </div>
-                    <div className="col-sm-6 mt-3">
+                    <div className="col-sm-6 col-6 mt-3">
                       <p className='mt-4 fs-3 float-start'> / 1 night</p>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 col-6">
                       <h4 className='mt-4 float-end'>$115</h4>
                     </div>
-                    <div className="col-sm-6 mt-1">
+                    <div className="col-sm-6 col-6 mt-1">
                       <p className='mt-4 float-start'> / 7 night</p>
                     </div>
                   </div>
-                  <div className="row">
+                  <div className="row p-2">
                     <div className="col-sm-12 text-center mt-4">
                       <Link to="/book" className='text-decoration-none btn btn-primary'>Book Now</Link>
                     </div>

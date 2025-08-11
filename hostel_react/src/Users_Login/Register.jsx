@@ -34,16 +34,15 @@ export default function Register() {
     }
     return (
         <div>
-            <div className="container-fluid">
-                <div className="row mt-5">
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-5">
-                        <img src={img} alt="" height={"70px"} />
+            <div className="container">
+                <div className="row">
+                    <div className="col-xl-4 col-sm-4 col-4">
+                        <img src={img} className='mt-3' alt="" height={"60px"} />
                     </div>
-                    <div className="col-sm-5">
-                        <button className='float-end border-0 btn mt-3' onClick={close}><i class="fa-solid fa-xmark fs-1"></i></button>
+                    <div className="col-xl-4 col-sm-4 col-4"></div>
+                    <div className="col-xl-4 col-sm-4 col-4 mt-2">
+                        <button className='btn border-0 fixed float-end text-dark mt-2' onClick={close}><span className='fs-2'><i class="fa-solid fa-xmark ms-2"></i></span></button>
                     </div>
-                    <div className="col-sm-1"></div>
                 </div>
             </div>
 

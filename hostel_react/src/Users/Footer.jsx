@@ -27,19 +27,19 @@ export default function Footer() {
                         <div className="col-xl-3 mt-5">
                             <h3 className='text-light'>Contact Us</h3>
                             <div className="row mt-3">
-                                <div className="col-sm-2 mt-1 text-center">
+                                <div className="col-sm-2 col-3 mt-1 text-center">
                                     <img src={locate} alt="" className='mt-2' height={"40px"} />
                                 </div>
-                                <div className="col-sm-8">
+                                <div className="col-sm-8 col-9">
                                     <p className='fs-5 text-light'>54826 Fadel Circles<br />
                                         Darrylstad, AZ 90995</p>
                                 </div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-sm-2 mt-2 text-center">
+                                <div className="col-sm-2 col-3 mt-2 text-center">
                                     <img src={call} alt="" className='mt-2' height={"35px"} />
                                 </div>
-                                <div className="col-sm-8">
+                                <div className="col-sm-8 col-9">
                                     <p className='fs-5 text-light'>(329) 580-7077<br />
                                         (650) 382-5020</p>
                                 </div>
@@ -57,16 +57,16 @@ export default function Footer() {
 
                             <div className="row mt-3">
                                 {/* <div className="col-sm-3"></div> */}
-                                <div className="col-sm-2 text-center">
+                                <div className="col-sm-2 col-1 text-center">
                                     <i class="fa-brands fa-facebook-f fs-3 text-light"></i>
                                 </div>
-                                <div className="col-sm-2 text-center">
+                                <div className="col-sm-2 col-1 text-center">
                                     <i class="fa-brands fa-instagram fs-3 text-light"></i>
                                 </div>
-                                <div className="col-sm-2 text-center">
+                                <div className="col-sm-2 col-1 text-center">
                                     <i class="fa-brands fa-twitter fs-3 text-light"></i>
                                 </div>
-                                <div className="col-sm-2 text-center">
+                                <div className="col-sm-2 col-1 text-center">
                                     <i class="fa-brands fa-whatsapp fs-3 text-light"></i>
                                 </div>
                             </div>

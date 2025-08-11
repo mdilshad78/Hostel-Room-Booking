@@ -31,11 +31,9 @@ export default function Home() {
     <>
       {/* top  */}
       <div className="container-fluid">
-        <div className="row mt-5 mt-5">
+        <div className="row">
           <div className="col-xl-1"></div>
           <div className="col-xl-5 ">
-            <div className="row my-5"></div>
-            <div className="row my-5"></div>
             <div className="row back" data-aos="fade-up">
               <div className="col-sm-2"></div>
               <div className="col-sm-10 p-5">
@@ -56,13 +54,13 @@ export default function Home() {
       </div>
       {/* top  */}
 
-      {/* <div className="container">
+      <div className="container">
         <div className="row">
-          <div className="col-xl-10 col-sm-8 mt-5">
-            <h1 data-aos="">Hostel rooms</h1>
+          <div className="col-xl-8 col-sm-8 col-8 mt-5">
+            <h1 data-aos="" className=''>Hostel rooms</h1>
           </div>
-          <div className="col-xl-2 col-sm-4 mt-5">
-            <Link to='/room' className='btn btn-primary float-end mt-3' data-aos="">View all rooms</Link>
+          <div className="col-xl-2 col-sm-4 col-4 mt-5">
+            <Link to='/room' className='btn btn-primary view' data-aos="">View all rooms</Link>
           </div>
         </div>
 
@@ -106,7 +104,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
 
       {/* everything */}
@@ -167,7 +165,7 @@ export default function Home() {
                 <Link to='/room' className='btn btn-primary pt-2 pb-2 ps-3 pe-3'>Book Now</Link>
               </div>
               <div className="col-xl-4 col-sm-4  mt-2">
-                <Link to="/room" class="text-decoration-none text-primary float-end fs-5">More About<span><i class="fa-solid fa-arrow-right text-primary ms-3 "></i></span></Link>
+                <Link to="/room" class="text-decoration-none text-primary fs-5 more">More About<span><i class="fa-solid fa-arrow-right text-primary ms-3 "></i></span></Link>
               </div>
             </div>
           </div>
@@ -180,25 +178,25 @@ export default function Home() {
       <div className="conatiner-fluid mt-5 back">
         <div className="container">
           <div className="row">
-            <div className="col-xl-3 col-sm-6 mt-5 mb-5">
+            <div className="col-xl-3 col-sm-6 col-6 mt-5">
               <h1 className='mt-3'>8.3 /10</h1>
               <p>1398 comments</p>
-              <img src={img2} alt="" className='' height={"40px"} />
+              <img src={img2} alt="" className='poster' height={"40px"} />
             </div>
-            <div className="col-xl-3 col-sm-6 mt-5 mb-5">
+            <div className="col-xl-3 col-sm-6 col-6 mt-5 ">
               <h1 className='mt-3'>4.6 /5</h1>
               <p>460 notes</p>
-              <img src={img3} alt="" className='' height={"40px"} />
+              <img src={img3} alt="" className='poster' height={"40px"} />
             </div>
-            <div className="col-xl-3 col-sm-6 mt-5 mb-5">
+            <div className="col-xl-3 col-sm-6 col-6 mt-5">
               <h1 className='mt-3'>4.9 /5</h1>
               <p>2389 notes</p>
               <img src={img4} alt="" className='mt-1' height={"40px"} />
             </div>
-            <div className="col-xl-3 col-sm-6 mt-5 mb-5">
+            <div className="col-xl-3 col-sm-6 col-6 mt-5">
               <h1 className='mt-3'>4.9 /5</h1>
               <p>2389 notes</p>
-              <img src={img5} alt="" className='mt-1' height={"60px"} />
+              <img src={img5} alt="" className='mt-1 poster' height={"60px"} />
             </div>
           </div>
         </div>
@@ -319,11 +317,11 @@ export default function Home() {
       {/* room photos */}
       <div className="container mt-5">
         <div className="row">
-          <div className="col-xl-10 col-sm-8 mt-5">
-            <h1>Photos of our rooms</h1>
+          <div className="col-xl-10 col-sm-8 col-8 mt-5">
+            <h1 className=''>Photos of our rooms</h1>
           </div>
-          <div className="col-xl-2 col-sm-4 mt-5">
-            <Link to='/gallery' className='btn btn-primary float-end mt-2'>View all photos</Link>
+          <div className="col-xl-2 col-sm-4 col-4 mt-5">
+            <Link to='/gallery' className='btn btn-primary mt-2 view'>View all photos</Link>
           </div>
         </div>
 
@@ -361,11 +359,11 @@ export default function Home() {
       {/* news */}
       <div className="container">
         <div className="row">
-          <div className="col-xl-10 col-sm-8 mt-5">
+          <div className="col-xl-10 col-sm-8 col-8 mt-5">
             <h1>Hosteller news</h1>
           </div>
-          <div className="col-xl-2 col-sm-4 mt-5">
-            <Link to='/room' className='btn btn-primary float-end mt-2'>View all news</Link>
+          <div className="col-xl-2 col-sm-4 col-4 mt-5">
+            <Link to='/room' className='btn btn-primary float-end mt-2 view'>View all news</Link>
           </div>
         </div>
 
@@ -373,7 +371,7 @@ export default function Home() {
           <div className="col-xl-4 mt-5">
             <div class="card">
               <div className='cardimg1'>
-                <p className='name1 p-3 mt-5 fs-5'>Travel</p>
+                <p className='name1 p-3 mt-5'>Travel</p>
               </div>
               <div class="card-body p-4">
                 <h3 class="card-title">How to cure wanderlust without leaving your home</h3>
@@ -392,7 +390,7 @@ export default function Home() {
           <div className="col-xl-4 mt-5">
             <div class="card">
               <div className='cardimg2'>
-                <p className='name2 p-3 mt-5 fs-5'>Tourist Guide</p>
+                <p className='name2 p-3 mt-5'>Tourist Guide</p>
               </div>
               <div class="card-body p-4">
                 <h3 class="card-title">Yoga Hostels to soothe your mind and nomadic soul</h3>
@@ -411,7 +409,7 @@ export default function Home() {
           <div className="col-xl-4 mt-5">
             <div class="card">
               <div className='cardimg3'>
-                <p className='name p-3 mt-5 fs-5'>Communication</p>
+                <p className='name p-3 mt-5'>Communication</p>
               </div>
               <div class="card-body p-4">
                 <h3 class="card-title">What happens when you travel with strangers?</h3>
@@ -440,11 +438,11 @@ export default function Home() {
             <div className="row mt-3">
               <div className="col-xl-6">
                 <div className="row" data-aos="fade-up">
-                  <div className="col-sm-2 text-center ">
+                  <div className="col-sm-2 col-3 text-center ">
                     <img src={phone} alt="" className='p-3 curd color' height={"70px"} />
                   </div>
-                  <div className="col-sm-1"></div>
-                  <div className="col-sm-5">
+                  <div className="col-sm-1 col-1"></div>
+                  <div className="col-sm-5 col-6">
                     <h4>Phone</h4>
                     <p>(329) 580-7077</p>
                   </div>
@@ -452,11 +450,11 @@ export default function Home() {
               </div>
               <div className="col-xl-6">
                 <div className="row" data-aos="fade-up">
-                  <div className="col-sm-2 text-center ">
+                  <div className="col-sm-2 col-3 text-center ">
                     <img src={mail} alt="" className='p-3 curd color' height={"70px"} />
                   </div>
-                  <div className="col-sm-1"></div>
-                  <div className="col-sm-5">
+                  <div className="col-sm-1 col-1"></div>
+                  <div className="col-sm-5 col-6">
                     <h4>Email</h4>
                     <p>contact@example.com</p>
                   </div>
@@ -467,11 +465,11 @@ export default function Home() {
             <div className="row mt-3">
               <div className="col-xl-6" data-aos="fade-up">
                 <div className="row">
-                  <div className="col-sm-2 text-center mt-2">
+                  <div className="col-sm-2 col-3 text-center mt-2">
                     <img src={location} alt="" className='p-3 curd color' height={"70px"} />
                   </div>
-                  <div className="col-sm-1"></div>
-                  <div className="col-sm-7">
+                  <div className="col-sm-1 col-1"></div>
+                  <div className="col-sm-7 col-6">
                     <h4>Location</h4>
                     <p>54826 Fadel Circles
                       Darrylstad, AZ 90995</p>
@@ -480,11 +478,11 @@ export default function Home() {
               </div>
               <div className="col-xl-6" data-aos="fade-up">
                 <div className="row">
-                  <div className="col-sm-2 text-center mt-2">
+                  <div className="col-sm-2 col-3 text-center mt-2">
                     <img src={clock} alt="" className='p-3 curd color' height={"70px"} />
                   </div>
-                  <div className="col-sm-1"></div>
-                  <div className="col-sm-7">
+                  <div className="col-sm-1 col-1"></div>
+                  <div className="col-sm-7 col-6">
                     <h4>Working Time</h4>
                     <p>Everyday<br />
                       10 am — 20 pm</p>
