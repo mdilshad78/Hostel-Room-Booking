@@ -25,7 +25,7 @@ export default function Book() {
     const navigate = useNavigate()
 
     function submit() {
-        axios.post("http://hostel-room-booking-frontend.vercel.app/book", { names, email, phone, checkin, checkout, adult, child, room, request })
+        axios.post("http://hostel-room-booking-mu.vercel.app/book", { names, email, phone, checkin, checkout, adult, child, room, request })
             .then((result) => {
                 console.log(result)
                 alert("Booking successfully");

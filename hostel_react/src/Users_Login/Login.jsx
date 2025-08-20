@@ -14,7 +14,7 @@ export default function Login() {
   const navigate = useNavigate()
 
   const submit = () => {
-    axios.post("http://hostel-room-booking-frontend.vercel.app/login", { email, password })
+    axios.post("http://hostel-room-booking-mu.vercel.app/login", { email, password })
       .then((result) => {
         localStorage.setItem("user", JSON.stringify(email))
         navigate("/")

@@ -9,7 +9,7 @@ export default function Show() {
     })
 
     const getdata = () => {
-        axios.get("http://hostel-room-booking-frontend.vercel.app/show").then((result) => {
+        axios.get("http://hostel-room-booking-mu.vercel.app/show").then((result) => {
             setData(result.data)
         }).catch((err) => {
             console.log(err);
