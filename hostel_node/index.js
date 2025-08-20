@@ -14,7 +14,7 @@ app.use(express.json())
 
 app.use(express.urlencoded({ extended: false }))
 
-mongoose.connect("mongodb+srv://root:12345@cluster-1.qheqsr7.mongodb.net/hostel").then((result) => {
+mongoose.connect("mongodb+srv://mohddilshad3743:12345@hostel.whc2tg5.mongodb.net/?retryWrites=true&w=majority&appName=Hostel").then((result) => {
     console.log("Connected!")
 }).catch((err) => {
     console.log("error")
@@ -91,6 +91,7 @@ app.post("/reg", (req, res) => {
     const data = new collection(user);
     data.save();
     res.json(data);
+    console.log(data)
 })
 
 app.post("/login", (req, res) => {
